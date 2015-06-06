@@ -1,12 +1,21 @@
 package com.example.agvaldivia86.teleticket2;
 
-import android.app.Activity;
+import android.content.pm.PackageInfo;
+import android.content.pm.PackageManager;
+import android.content.pm.Signature;
+import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.util.Base64;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
+import java.util.NoSuchElementException;
 
-public class MyActivity extends Activity {
+public class MyActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

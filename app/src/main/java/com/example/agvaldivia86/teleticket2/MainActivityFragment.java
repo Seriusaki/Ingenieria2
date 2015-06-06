@@ -1,8 +1,9 @@
 package com.example.agvaldivia86.teleticket2;
 
-import android.app.Fragment;
+import android.content.Intent;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
-import android.provider.ContactsContract;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,6 +19,8 @@ import com.facebook.Profile;
 import com.facebook.ProfileTracker;
 import com.facebook.login.LoginResult;
 import com.facebook.login.widget.LoginButton;
+
+import java.lang.reflect.Array;
 
 /**
  * Created by agvaldivia86 on 06/06/2015.
