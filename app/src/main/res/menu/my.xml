@@ -1,8 +1,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".MyActivity" >
-    <item android:id="@+id/action_settings"
-        android:title="@string/action_settings"
-        android:orderInCategory="100"
-        android:showAsAction="never" />
+    <item android:id="@+id/buscar" android:icon="@drawable/buscar"
+          android:title="Open the file" />
+
+    <item android:id="@+id/top"
+          android:icon="@drawable/estrella"
+          android:title="Save the file" />
+
+    <item android:id="@+id/agenda"
+        android:icon="@drawable/agenda"
+        android:title="Save the file" />
+
+    <item android:id="@+id/perfil"
+        android:icon="@drawable/perfil"
+        android:title="Save the file" />
 </menu>

@@ -118,6 +118,7 @@
         android:layout_alignLeft="@+id/txt_nombre_nuevo"
         android:layout_marginRight="30dp"
         android:entries="@array/genero_array"
+        android:prompt="@string/select"
         />
 
     <Button
