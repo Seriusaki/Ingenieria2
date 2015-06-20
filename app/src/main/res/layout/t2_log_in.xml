@@ -48,6 +48,14 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp" />
 
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/log_in"
+        android:layout_marginTop="10dp"/>
+
     <TextView
         android:id="@+id/txt_cuenta"
         android:layout_width="wrap_content"
@@ -68,23 +76,7 @@
         android:layout_alignParentBottom="true"/>
 
 
-    <TextView
-        android:id="@+id/text_details"
-        android:gravity="center"
-        android:layout_above="@+id/login_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
 
-    <com.facebook.login.widget.LoginButton
-        android:id="@+id/login_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/log_in"
-        android:layout_alignStart="@+id/log_in"
-        android:layout_alignRight="@+id/log_in"
-        android:layout_alignEnd="@+id/log_in" />
 
 
 </RelativeLayout>
