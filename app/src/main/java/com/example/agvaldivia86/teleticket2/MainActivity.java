@@ -7,10 +7,8 @@ package com.example.agvaldivia86.teleticket2;
         import android.view.Menu;
         import android.view.MenuInflater;
         import android.view.View;
-        import android.view.View.OnClickListener;
         import android.widget.AdapterView;
         import android.widget.ArrayAdapter;
-        import android.widget.Button;
         import android.widget.ListView;
         import android.widget.Spinner;
         import android.widget.Toast;
@@ -24,7 +22,7 @@ public class MainActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        setContentView(R.layout.t3_nuevo_usuario1);
+        setContentView(R.layout.t3_1_nuevo_usuario);
         addItemsOnSpinner();
 
         setContentView(R.layout.t4_home);
