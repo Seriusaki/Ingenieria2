@@ -32,13 +32,24 @@
         android:layout_toRightOf="@id/txt_bienvenido"
         android:layout_marginTop="10dp" />
 
-    <ListView
-        android:id="@+id/list_home"
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btn_hoy"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/txt_bienvenido"
-        android:layout_alignLeft="@+id/txt_bienvenido"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="10dp"/>
+        android:text="¿Que puedo hacer hoy?"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/txt_nombre_bd"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"/>
+
+    <Button
+        android:id="@+id/btn_recomendacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recomendaciones del dia"
+        android:layout_below="@+id/btn_hoy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp" />
 
 </RelativeLayout>
